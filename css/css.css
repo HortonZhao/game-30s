@@ -1,0 +1,115 @@
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 9rem;
+  border: none;
+  border-radius: 3rem;
+  margin: 1rem;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+}
+.btn:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+#game {
+  width: 90%;
+  height: 90%;
+  line-height: 100vh;
+}
+:root {
+  font-size: 1vw;
+}
+#gamepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+#startpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+#hispage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+#hislist {
+  height: auto;
+  width: auto;
+  font-size: 3rem;
+  color: #555555;
+  border: 1px solid #f00;
+  align-items: center;
+}
+#hislist th,
+td {
+  padding: 2rem;
+  border: 1px solid #f00;
+}
+#hislist th {
+  font-weight: bold;
+}
+
+#btncontainer {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  height: 90%;
+}
+#timer {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f00;
+  height: 10%;
+  line-height: 10%;
+}
+.outer {
+  position: relative;
+  width: 100%;
+  height: 90%;
+  background-color: black;
+  margin: auto auto;
+}
+
+.white {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff;
+  left: 50%;
+  top: 50%;
+  cursor: grabbing;
+  touch-action: none;
+}
+
+.yellow {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(234, 250, 8, 0.8);
+  top: 0;
+  left: 0;
+}
+body {
+  background: #cfd3d4;
+  text-align: center;
+  padding: 30px;
+  overflow: hidden;
+}
+#highest {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f00;
+  height: 10%;
+  line-height: 10%;
+}
